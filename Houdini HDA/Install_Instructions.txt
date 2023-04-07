@@ -1,0 +1,4 @@
+Open Houdini.
+File -> Import -> Houdini Digital Asset.
+Browse to the "object_OlaHaldor.dev.Field_Dimensions.1.0.hdalc" file.
+Click "Install".
