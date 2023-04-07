@@ -12,7 +12,9 @@ The current version contains the field dimension tool. A future version of the k
 - HDA specific for the creaton of Field Dimensions, to be used with *Modelleicher*'s script.
 - You can load a PNG with masks for the fields, or create curves directly in Houdini.
 - A Substance Designer file to get you started with converting field dimension masks to Dirt texture on your map.
-- Link to the Blender script from NMC T-Bone.
+
+[Get the Blender addon by NMC T-Bone](https://github.com/NMC-TBone/Addon---import_field_shapes) to make the process even more streamlined.
+Link to modelleicher's script coming as soon as it is published!
 
 # The Road Tool
 - You can load an external curve from OBJ, FBX etc. or create your own directly in Houdini.
