@@ -14,7 +14,7 @@ The current version contains the field dimension tool. A future version of the k
 - A Substance Designer file to get you started with converting field dimension masks to Dirt texture on your map.
 - Link to the Blender script from NMC T-Bone.
 
-# The Road Tool.
+# The Road Tool
 - You can load an external curve from OBJ, FBX etc. or create your own directly in Houdini.
 - It will create a road mesh which will lay flush with the terrain.
 - The surrounding terrain will flatten and have a smooth transition, to make it look very natural.
