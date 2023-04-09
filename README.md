@@ -2,7 +2,7 @@
 A kit of tools to ease the process of creating maps for Farming Simulator 22 with Houdini, Blender and Substance Designer
 
 ### What's the purpose of the kit?
-<details>The kit is tailor made for use with Farming Simulator 22 and Giants Editor, and make the process involved a lot faster, less boring, and give you plenty of time for the fun stuff of map making.
+<Unfold>The kit is tailor made for use with Farming Simulator 22 and Giants Editor, and make the process involved a lot faster, less boring, and give you plenty of time for the fun stuff of map making.
 The kit will contain a Houdini Digital Asset (HDA) with an optimized interface with a focus on making the process as easy as possible with little or no interaction with the nodes that are used to create the tool.
 
 The current version contains the field dimension tool. A future version of the kit will add the Road Tool and other scripts.
@@ -36,4 +36,4 @@ The idea for the Field Dimension tool sprung to life after I saw the script from
 With this I also explored methods I could expand on the feature set. With the tool you can not only prepare objects for the field dimension script, but also flatten or smooth the areas where the fields are located, and make them blend better into the surrounding terrain. Please see the videos below for reference.
 
 ### Videos
-[Playlist on YouTube](https://youtu.be/ITUCDfB2fvc) of the different iterations of the tools in use.</details>
+[Playlist on YouTube](https://youtu.be/ITUCDfB2fvc) of the different iterations of the tools in use.</Unfold>
