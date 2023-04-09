@@ -48,8 +48,8 @@ With this I also explored methods I could expand on the feature set. With the to
 <details>
     <summary>Read the tutorial</summary>
 
-#### Prerequisite 
 The UI of the Houdini tool is quite straight forward, and is operated in the order it's laid out.
+#### Prerequisite 
 
 1. Install the HDA. 
     - File -> Import -> Houdini Digital Asset.
