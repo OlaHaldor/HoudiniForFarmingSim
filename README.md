@@ -59,11 +59,15 @@ With this I also explored methods I could expand on the feature set. With the to
     - boolean: fieldGrassMission
     - integer: nameIndicatorIndex
 
+![Fields](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/field.jpg?raw=true)
+
 The default values are
     - fieldAngle: 90
     - fieldDimensionIndex: 0
     - fieldGrassMission: (unticked)
     - nameIndicatorIndex: 1
+
+![Template](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/fieldtemplate.jpg?raw=true)
 
 4. Create a transform group where you put all your transform groups containing the field dimension temp objects from Houdini/Blender. For the purpose of this example I will name it *Temp Field Dimension Objects*
 5. This is the procedure to generate all field dimensions in one click.
@@ -72,4 +76,7 @@ The default values are
     3. Select the *field_template* transform group.
     4. run the script.
 6. Select the *fields* transform group and **Toggle Render Field Areas**, this is a default script in GE. You should now be able to see all the field definitions generated.
+
+Here's a sample hierarchy.
+![Sample](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/setup.jpg?raw=true)
 </details>
