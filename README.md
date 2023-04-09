@@ -87,7 +87,7 @@ The UI of the Houdini tool is quite straight forward, and is operated in the ord
 
     One core will compute one FBX file. The more cores you make available for the exporter, the shorter time it takes to export all the FBX files of field definition objects.
     ![CPUCount](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/cpucount.jpg?raw=true)
-    
+
 </details>
 
 ### METools Loop V2
@@ -96,32 +96,32 @@ The UI of the Houdini tool is quite straight forward, and is operated in the ord
 
 #### Prerequisite 
 1. Add the script into your scripts folder.
-2. In your map you should already have a *fields* transform group with the required attributes.
-    - script callback: onCreate = FieldUtil.onCreate
+2. In your map you should already have a *```fields```* transform group with the required attributes.
+    - script callback: ```onCreate``` = ```FieldUtil.onCreate```
 
 3. You should already have a field dimension transform group with the required attributes. This will from now on be the template for which all the field dimensions will copy the values of. For the purpose of this tutorial I will name it *field_template*
-    - integer: fieldAngle
-    - integer: fieldDimensionIndex
-    - boolean: fieldGrassMission
-    - integer: nameIndicatorIndex
+    - integer: ```fieldAngle```
+    - integer: ```fieldDimensionIndex```
+    - boolean: ```fieldGrassMission```
+    - integer: ```nameIndicatorIndex```
 
 ![Fields](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/field.jpg?raw=true)
 
 The default values are
-    - fieldAngle: 90
-    - fieldDimensionIndex: 0
+    - fieldAngle: ```90```
+    - fieldDimensionIndex: ```0```
     - fieldGrassMission: (unticked)
-    - nameIndicatorIndex: 1
+    - nameIndicatorIndex: ```1```
 
 ![Template](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/fieldtemplate.jpg?raw=true)
 
-4. Create a transform group where you put all your transform groups containing the field dimension temp objects from Houdini/Blender. For the purpose of this example I will name it *Temp Field Dimension Objects*
+4. Create a transform group where you put all your transform groups containing the field dimension temp objects from Houdini/Blender. For the purpose of this example I will name it ```Temp Field Dimension Objects```
 5. This is the procedure to generate all field dimensions in one click.
-    1. Select the *Temp Field Dimension Objects* transform group.
-    2. Select the *fields* transform group.
-    3. Select the *field_template* transform group.
+    1. Select the ```Temp Field Dimension Objects``` transform group.
+    2. Select the ```fields``` transform group.
+    3. Select the ```field_template``` transform group.
     4. run the script.
-6. Select the *fields* transform group and **Toggle Render Field Areas**, this is a default script in GE. You should now be able to see the field definitions overlay on your map.
+6. Select the ```fields``` transform group and **Toggle Render Field Areas**, this is a default script in GE. You should now be able to see the field definitions overlay on your map.
 
 Here's a sample hierarchy. Notice how the transform groups are placed in order of operation to make it easier to remember in which order to select each group.
 
