@@ -1,9 +1,10 @@
 # HoudiniForFarmingSim
 A kit of tools to ease the process of creating maps for Farming Simulator 22 with Houdini, Blender and Substance Designer
 
-### What's the purpose of the kit?
 <details>
     <summary>Read more</summary>
+    
+### What's the purpose of the kit?
 The kit is tailor made for use with Farming Simulator 22 and Giants Editor, and make the process involved a lot faster, less boring, and give you plenty of time for the fun stuff of map making.
 The kit will contain a Houdini Digital Asset (HDA) with an optimized interface with a focus on making the process as easy as possible with little or no interaction with the nodes that are used to create the tool.
 
@@ -39,3 +40,30 @@ With this I also explored methods I could expand on the feature set. With the to
 
 ### Videos
 [Playlist on YouTube](https://youtu.be/ITUCDfB2fvc) of the different iterations of the tools in use.</details>
+
+<details>
+    <summary>Tutorials</summary>
+
+### METools Loop V2
+<details>
+    <summary>Read the tutorial</summary>
+
+#### Prerequisite 
+1. Add the script into your scripts folder.
+2. In your map you should already have a *fields* transform group with the required attributes.
+    - script callback: onCreate = FieldUtil.onCreate
+    
+3. You should already have a *field dimension* transform group with the required attributes.
+    - integer: fieldAngle
+    - integer: fieldDimensionIndex
+    - boolean: fieldGrassMission
+    - integer: nameIndicatorIndex
+
+The default values are
+    fieldAngle: 90
+    fieldDimensionIndex: 0
+    fieldGrassMission: (unticked)
+    nameIndicatorIndex: 1
+
+
+</details>
