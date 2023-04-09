@@ -73,7 +73,7 @@ The UI of the Houdini tool is quite straight forward, and is operated in the ord
     - You can export field definition objects as FBX.
     - You can export a mask of the field definitions to edit texture weight files (for example in Substance Designer, for a fully automated process).
 
-    **Note about exporting FBX files**
+    ## Note about exporting FBX files
 
     The computer may become slower in use depending on your system. By default the exporter will *use as many cores you have available, minus one*, which means it will leave one core untouched so the system does not completely lock down.
 
