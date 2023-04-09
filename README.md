@@ -3,8 +3,6 @@ A kit of tools to ease the process of creating maps for Farming Simulator 22 wit
 
 ![Flow](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/flow.png)
 
-[Donations are welcomed](https://streamelements.com/olahaldor/tip), and optional. I put the money aside to update or buy new software and other relevant things to make modding easier, better, and more fun, for me and for you!
-
 <details>
     <summary>Read more</summary>
     
@@ -133,3 +131,6 @@ Here's a sample hierarchy. Notice how the transform groups are placed in order o
 
 **Note:** It does not matter how man field definition transform groups you have. You can add more fields at any time. 
 </details>
+</details>
+
+[Donations are welcomed](https://streamelements.com/olahaldor/tip), and optional. I put the money aside to update or buy new software and other relevant things to make modding easier, better, and more fun, for me and for you!
