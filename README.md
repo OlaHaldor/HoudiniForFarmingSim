@@ -44,6 +44,30 @@ With this I also explored methods I could expand on the feature set. With the to
 <details>
     <summary>Tutorials</summary>
 
+### Field Dimension Tool in Houdini
+<details>
+    <summary>Read the tutorial</summary>
+
+#### Prerequisite 
+The UI of the Houdini tool is quite straight forward, and is operated in the order it's laid out.
+
+1. Install the HDA. 
+    - File -> Import -> Houdini Digital Asset.
+    - Browse to the downloaded HDA file.
+    - Click Install and Create if it's the first time.
+    - Next time you want to create field definitions in a new map, you can simply right click in the node graph and select **Farming Simulator -> Field Dimensions**
+
+2. Have a heightmap ready. Optionally also a mask for field definitions.
+
+4. Load a heightmap and set the size and height scale to match your map in GE.
+5. Either load an external mask or create curves in Houdini.
+    
+    **Note about external masks**
+    - The way Houdini works is it will create data from the external file, going bottom right to top left. This means that Field 1 will be bottom right to top left.
+    - To counter this, rotate the mask image 180 degrees. This will trick the system, and your fields will actually start the count from top left to bottom right.
+
+</details>
+
 ### METools Loop V2
 <details>
     <summary>Read the tutorial</summary>
@@ -75,9 +99,11 @@ The default values are
     2. Select the *fields* transform group.
     3. Select the *field_template* transform group.
     4. run the script.
-6. Select the *fields* transform group and **Toggle Render Field Areas**, this is a default script in GE. You should now be able to see all the field definitions generated.
+6. Select the *fields* transform group and **Toggle Render Field Areas**, this is a default script in GE. You should now be able to see the field definitions overlay on your map.
 
-Here's a sample hierarchy.
+Here's a sample hierarchy. Notice how the transform groups are placed in order of operation to make it easier to remember in which order to select each group.
 
 ![Sample](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/setup.jpg?raw=true)
+
+**Note:** It does not matter how man field definition transform groups you have. You can add more fields at any time. 
 </details>
