@@ -74,11 +74,12 @@ The UI of the Houdini tool is quite straight forward, and is operated in the ord
     - You can export a mask of the field definitions to edit texture weight files (for example in Substance Designer, for a fully automated process).
 
     **Note about exporting FBX files**
-The computer may become slower in use depending on your system. By default the exporter will *use as many cores you have available, minus one*, which means it will leave one core untouched so the system does not completely lock down.
 
-You can override this setting if you want to. Let's say you have 12 cores but want to browse the web or something while the exporter runs. You can override the setting and make it use 8 cores instead.
+    The computer may become slower in use depending on your system. By default the exporter will *use as many cores you have available, minus one*, which means it will leave one core untouched so the system does not completely lock down.
 
-One core will compute one FBX file. The more cores you make available for the exporter, the shorter time it takes to export all the FBX files of field definition objects.
+    You can override this setting if you want to. Let's say you have 12 cores but want to browse the web or something while the exporter runs. You can override the setting and make it use 8 cores instead.
+
+    One core will compute one FBX file. The more cores you make available for the exporter, the shorter time it takes to export all the FBX files of field definition objects.
 </details>
 
 ### METools Loop V2
