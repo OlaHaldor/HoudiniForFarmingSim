@@ -65,7 +65,13 @@ The UI of the Houdini tool is quite straight forward, and is operated in the ord
     **Note about external masks**
     - The way Houdini works is it will create data from the external file, going bottom right to top left. This means that Field 1 will be bottom right to top left.
     - To counter this, rotate the mask image 180 degrees. This will trick the system, and your fields will actually start the count from top left to bottom right.
+    - Make sure you select the correct setting in the tool as well.
 
+6. Adjust the settings for field shape and terrain smoothing as you please.
+7. Export! 
+    - You can export the updated heightmap with smooth fields.
+    - You can export field definition objects as FBX.
+    - You can export a mask of the field definitions to edit texture weight files (for example in Substance Designer, for a fully automated process).
 </details>
 
 ### METools Loop V2
