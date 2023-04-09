@@ -75,6 +75,9 @@ The UI of the Houdini tool is quite straight forward, and is operated in the ord
 
     ## Note about exporting FBX files
 
+    To see the progress of the export, you can open a window.<br>
+    Go to Windows -> Task Graph Table. From the *Network* menu, select the **FBX_EXPORT** item.
+
     The computer may become slower in use depending on your system. By default the exporter will *use as many cores you have available, minus one*, which means it will leave one core untouched so the system does not completely lock down.
 
     You can override this setting if you want to. Let's say you have 12 cores but want to browse the web or something while the exporter runs. You can override the setting and make it use 8 cores instead.
