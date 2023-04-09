@@ -78,5 +78,6 @@ The default values are
 6. Select the *fields* transform group and **Toggle Render Field Areas**, this is a default script in GE. You should now be able to see all the field definitions generated.
 
 Here's a sample hierarchy.
+
 ![Sample](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/setup.jpg?raw=true)
 </details>
