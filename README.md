@@ -52,18 +52,24 @@ With this I also explored methods I could expand on the feature set. With the to
 1. Add the script into your scripts folder.
 2. In your map you should already have a *fields* transform group with the required attributes.
     - script callback: onCreate = FieldUtil.onCreate
-    
-3. You should already have a *field dimension* transform group with the required attributes.
+
+3. You should already have a sample field dimension transform group with the required attributes. This will from now on be the template for which all the field dimensions will copy the values of. For the purpose of this tutorial I will name it *Template*
     - integer: fieldAngle
     - integer: fieldDimensionIndex
     - boolean: fieldGrassMission
     - integer: nameIndicatorIndex
 
 The default values are
-    fieldAngle: 90
-    fieldDimensionIndex: 0
-    fieldGrassMission: (unticked)
-    nameIndicatorIndex: 1
+    - fieldAngle: 90
+    - fieldDimensionIndex: 0
+    - fieldGrassMission: (unticked)
+    - nameIndicatorIndex: 1
 
-
+4. Create a transform group where you put all your transform groups containing the field dimension temp objects from Houdini/Blender. For the purpose of this example I will name it *Temp Field Dimension Objects*
+5. This is the procedure to generate all field dimensions in one click.
+    1. Select the *Temp Field Dimension Objects* transform group.
+    2. Select the *fields* transform group.
+    3. Select the *Template* transform group.
+    4. run the script.
+6. Select the *fields* transform group and **Toggle Render Field Areas**, this is a default script in GE. You should now be able to see all the field definitions generated.
 </details>
