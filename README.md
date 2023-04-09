@@ -74,7 +74,10 @@ The UI of the Houdini tool is quite straight forward, and is operated in the ord
     - You can export a mask of the field definitions to edit texture weight files (for example in Substance Designer, for a fully automated process).
 
     ## Note about exporting FBX files
-
+    It is EXTREMELY IMPORTANT to not mess with the filename attributes.<br>
+    If you for some reason should lose the attribute, copy-paste this.<br>
+    ```field_`padzero(2, 0)``$F`.fbx```
+    
     To see the progress of the export, you can open a window.<br>
     Go to Windows -> Task Graph Table. From the *Network* menu, select the **FBX_EXPORT** item.
 
@@ -83,6 +86,7 @@ The UI of the Houdini tool is quite straight forward, and is operated in the ord
     You can override this setting if you want to. Let's say you have 12 cores but want to browse the web or something while the exporter runs. You can override the setting and make it use 8 cores instead.
 
     One core will compute one FBX file. The more cores you make available for the exporter, the shorter time it takes to export all the FBX files of field definition objects.
+    ![CPUCount](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/cpucount.jpg?raw=true)
 </details>
 
 ### METools Loop V2
