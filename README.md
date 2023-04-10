@@ -1,6 +1,9 @@
 # HoudiniForFarmingSim
 A kit of tools to ease the process of creating maps for Farming Simulator 22 with Houdini, Blender and Substance Designer
 
+
+[![Watch](https://i.ytimg.com/vi_webp/J7fQ31Yc8MA/maxresdefault.webp)](https://youtu.be/J7fQ31Yc8MA)
+
 ![Flow](https://github.com/OlaHaldor/HoudiniForFarmingSim/blob/main/TutorialImages/flow.png)
 
 <details>
