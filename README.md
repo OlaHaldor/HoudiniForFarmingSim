@@ -81,7 +81,7 @@ The UI of the Houdini tool is quite straight forward, and is operated in the ord
     ## Note about exporting FBX files
     It is EXTREMELY IMPORTANT to not mess with the filename attributes.<br>
     If you for some reason should lose the attribute, copy-paste this.<br>
-    ```field_`padzero(2, 0)``$F`.fbx```
+    ```field_`padzero(3, $F)`.fbx```
     
     To see the progress of the export, you can open a window.<br>
     Go to Windows -> Task Graph Table. From the *Network* menu, select the **FBX_EXPORT** item.
