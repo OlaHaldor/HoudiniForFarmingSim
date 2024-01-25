@@ -30,9 +30,7 @@ Link to modelleicher's script coming as soon as it is published!
 - The surrounding terrain will flatten and have a smooth transition, to make it look very natural.
 
 ### Future development
-I'm looking into finalizing the road tool. There is still a few moving parts I'd like to set in stone.
-For a Houdini newbie like me, it's still a bit complex to iterate while maintaining loads of flexibility.
-The road tool will come soon enough. :)
+I'm looking into making a tool where all tools are working together.
 
 ### Backstory
 I began using Houdini for flow maps, as seen in [my map Rennebu](https://farming-simulator.com/mod.php?lang=en&country=us&mod_id=250208&title=fs2022).
